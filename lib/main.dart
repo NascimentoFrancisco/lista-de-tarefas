@@ -11,6 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      //Lembrando que aqui só retira banner de deuga do app, mas o app ainda está no modo debug
+      debugShowCheckedModeBanner: false,
       //Page importada da pasta pages
       home: TodoListPage(),
     );
